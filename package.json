@@ -1,6 +1,6 @@
 {
   "name": "angular2-credit-card-draw",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "scripts": {
     "lint": "tslint src/**/*.ts",
     "test": "tsc && karma start",

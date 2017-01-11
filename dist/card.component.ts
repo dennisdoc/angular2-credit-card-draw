@@ -7,8 +7,8 @@ import { Component,Input } from '@angular/core';
 export class CardDraw{
 	@Input() number: string;
 	@Input() name: string;
-	@Input() empty:string;
-	@Input() expiration:string;
+	@Input() empty:boolean;
+	@Input() expiration:boolean;
 	@Input() ccv:string;
 	
 
