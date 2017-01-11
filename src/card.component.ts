@@ -8,7 +8,7 @@ export class CardDraw{
 	@Input() number: string;
 	@Input() name: string;
 	@Input() empty:boolean;
-	@Input() expiration:boolean;
+	@Input() expiration:string;
 	@Input() ccv:string;
 	
 
@@ -17,7 +17,6 @@ export class CardDraw{
    		if(!this.empty){
    			this.expiration='99/99';
    			this.ccv='999';
-   			this.empty=false;
    		}
     }
 }
