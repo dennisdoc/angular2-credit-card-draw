@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'angular2-credit-card-draw';
+import { CardDraw } from 'angular2-credit-card-draw';
 
 @NgModule({
   declarations: [
