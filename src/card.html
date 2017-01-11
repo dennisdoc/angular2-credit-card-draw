@@ -2,7 +2,7 @@
 	<div class="checkout">
 	  <div class="credit-card-box">
 	    <div class="flip">
-	      <div class="front">
+	      <div [style.background]="background" class="front">
 	        <div class="chip"></div>
 	        <div class="logo">
 	          <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -35,7 +35,7 @@
 	          <div>{{expiration}}</div>
 	        </div>
 	      </div>
-	      <div class="back">
+	      <div [style.background]="background" class="back">
 	        <div class="strip"></div>
 	        <div class="logo">
 	          <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -254,7 +254,6 @@
 		  border-radius: 15px;
 		  -webkit-backface-visibility: hidden;
 		          backface-visibility: hidden;
-		  background: -webkit-linear-gradient(315deg, #bd6772, #53223f);
 		  background: linear-gradient(135deg, #bd6772, #53223f);
 		  position: absolute;
 		  color: #fff;
