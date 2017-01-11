@@ -2,7 +2,7 @@ import { Component,Input } from '@angular/core';
 
 @Component({ 
 	selector: 'card-draw',
-	templateUrl:'./card.html' 
+	templateUrl:'src/card.html' 
 })
 export class CardDraw{
 	@Input() number: string;
