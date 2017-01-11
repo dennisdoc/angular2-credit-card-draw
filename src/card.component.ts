@@ -7,9 +7,9 @@ import { Component,Input } from '@angular/core';
 export class CardDraw{
 	@Input() number: string;
 	@Input() name: string;
-	@Input() empty=true;
-	expiration:string;
-	ccv:string;
+	@Input() empty:string;
+	@Input() expiration:string;
+	@Input() ccv:string;
 	
 
 
@@ -17,6 +17,7 @@ export class CardDraw{
    		if(!this.empty){
    			this.expiration='99/99';
    			this.ccv='999';
+   			this.empty=false;
    		}
     }
 }
