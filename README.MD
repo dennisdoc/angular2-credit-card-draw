@@ -45,12 +45,22 @@ export class AppModule { }
 
 Once your library is imported, you can use its components, directives and pipes in your Angular application:
 
+```typescript
+atributes:{
+  background:'blue',
+  name:'Emma Watson',
+  number:'1234 1234 1234 1234',
+  ccv:'999',
+  expiration:'99/99'
+}
+```
 ```xml
 <!-- You can now use your library component in app.component.html -->
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<card-draw [ccv]="atributes.ccv" [background]="atributes.background" [expiration]="atributes.expiration" [name]="atributes.name" [number]="atributes.number" >
+</card-draw>
 ```
 
 ## Development
