@@ -1,8 +1,8 @@
 import {NgModule, ModuleWithProviders} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {CardDraw} from "./src/card.component";
+import {CardDraw} from "./dist/card.component";
 
-export * from './src/card.component';
+export * from './dist/card.component';
 
 @NgModule({
   imports: [
