@@ -3,7 +3,8 @@ node_modules/*
 npm-debug.log
 
 # TypeScript
-*.js
+dist/*.js
+dist/**/*.js
 *.map
 *.d.ts
 
