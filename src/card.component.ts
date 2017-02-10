@@ -10,6 +10,7 @@ export class CardDraw{
 	@Input() expiration:string;
 	@Input() ccv:string;
 	@Input() background:string;
+	@Input() height:string;
 	
 
 

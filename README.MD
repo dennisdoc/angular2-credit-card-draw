@@ -51,7 +51,9 @@ atributes:{
   name:'Emma Watson',
   number:'1234 1234 1234 1234',
   ccv:'999',
-  expiration:'99/99'
+  expiration:'99/99',
+  height:450px,
+  width:450px
 }
 ```
 ```xml
@@ -59,7 +61,7 @@ atributes:{
 <h1>
   {{title}}
 </h1>
-<card-draw [ccv]="atributes.ccv" [background]="atributes.background" [expiration]="atributes.expiration" [name]="atributes.name" [number]="atributes.number" >
+<card-draw [width]="atributes.width" [height]="atributes.height" [ccv]="atributes.ccv" [background]="atributes.background" [expiration]="atributes.expiration" [name]="atributes.name" [number]="atributes.number" >
 </card-draw>
 ```
 
