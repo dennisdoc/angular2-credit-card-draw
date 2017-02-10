@@ -11,6 +11,7 @@ export class CardDraw{
 	@Input() ccv:string;
 	@Input() background:string;
 	@Input() height:string;
+	@Input() width:string;
 	
 
 
