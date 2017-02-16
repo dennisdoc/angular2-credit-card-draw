@@ -1,5 +1,8 @@
 # angular2-credit-card-draw
 
+##Live Demo
+https://plnkr.co/edit/8kiEx9ZXOZsDJB2CAtcp?p=preview
+
 ## Installation
 
 To install this library, run:
