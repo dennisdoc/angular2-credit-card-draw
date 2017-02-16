@@ -12,6 +12,7 @@ export class CardDraw{
 	@Input() background:string;
 	@Input() height:string;
 	@Input() width:string;
+	@Input() toggle:boolean;
 	
 
 
