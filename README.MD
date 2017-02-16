@@ -60,7 +60,7 @@ atributes:{
 }
 
 ```
-it has a toogle atribute, witch u can bind [toggle]="booleanValue" to control in events witch part of the card to show (front or back)
+it has a toogle atribute, which u can bind [toggle]="booleanValue" to control which part of the card to show (front or back)
 ```xml
 <!-- You can now use your library component in app.component.html -->
 <h1>
