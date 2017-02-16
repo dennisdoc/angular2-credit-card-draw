@@ -58,6 +58,9 @@ atributes:{
   height:450px,
   width:450px
 }
+
+it has a toogle atribute, witch u can bind [toggle]="booleanValue" to control in events witch part of the card to show (front or back)
+
 ```
 ```xml
 <!-- You can now use your library component in app.component.html -->
